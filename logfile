@@ -1,0 +1,8 @@
+2021-03-10 18:10:35.621 EET [13639] LOG:  starting PostgreSQL 13.1 on x86_64-apple-darwin20.1.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.27), 64-bit
+2021-03-10 18:10:35.622 EET [13639] LOG:  listening on IPv6 address "::1", port 5432
+2021-03-10 18:10:35.622 EET [13639] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-03-10 18:10:35.623 EET [13639] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-03-10 18:10:35.629 EET [13640] LOG:  database system was shut down at 2021-03-10 18:10:01 EET
+2021-03-10 18:10:35.633 EET [13639] LOG:  database system is ready to accept connections
+2021-03-10 18:11:45.561 EET [13710] FATAL:  database "todoapp" does not exist
+2021-03-10 18:11:45.875 EET [13713] FATAL:  database "todoapp" does not exist
