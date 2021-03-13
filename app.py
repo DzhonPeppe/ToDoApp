@@ -4,8 +4,8 @@ import sys
 from flask_migrate import Migrate
 
 app = Flask(__name__)
-db = SQLAlchemy(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://johnpeppe@127.0.0.1:5432/todoapp'
+db = SQLAlchemy(app)
 
 migrate = Migrate(app, db)
 
